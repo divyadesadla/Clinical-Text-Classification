@@ -1,0 +1,30 @@
+Classifier: Logistic Regression
+Mean Accuracy: 0.41693461950696675
+Standard Deviation of Accuracy: 0.003215434083601282
+Mean Precision: 0.41337263758146003
+Mean Recall: 0.41693461950696675
+Mean F1-Score: 0.39643376141911724
+Mean Specificity: 0.9804924242424242
+Mean MCC: 0.3665952818923882
+Mean Kappa: 0.36025733252499503
+
+Classifier: Multinomial Naive Bayes
+Mean Accuracy: 0.4461414790996785
+Standard Deviation of Accuracy: 0.0013397642015005318
+Mean Precision: 0.4648473065392427
+Mean Recall: 0.4461414790996785
+Mean F1-Score: 0.4097144459130199
+Mean Specificity: 0.98375
+Mean MCC: 0.41286761985463405
+Mean Kappa: 0.40071501660574094
+
+Classifier: Random Forest
+Mean Accuracy: 0.3046623794212219
+Standard Deviation of Accuracy: 0.006698821007502687
+Mean Precision: 0.296797087195505
+Mean Recall: 0.3046623794212219
+Mean F1-Score: 0.2947845576089182
+Mean Specificity: 0.9622507122507122
+Mean MCC: 0.20365135079678665
+Mean Kappa: 0.203034788124138
+
