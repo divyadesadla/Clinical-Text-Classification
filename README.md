@@ -13,6 +13,8 @@ utils.py: This file contains utility functions for data preprocessing and model 
 
 explore.py: This file contains some of the exploratory work I did before setting up the main pipeline (i.e. models.py and utils.py). You dont need to run this code.
 
+lstm.py and lstm_utils.py: These files contain the code and model infrastructure to train an LSTM model for the same task. This code is still very preliminary and a work in progress/ it will give you an error right now. You dont need to run this code.
+
 Getting Started:
 Before running the project, ensure that you have the following prerequisites:
 1. Python 3.8+
