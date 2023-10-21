@@ -1,33 +1,16 @@
 """
-Task: Classify medical transcriptions by speciality of medicine.
-Dataset: https://www.kaggle.com/datasets/louiscia/transcription-samples-mtsamples
-It is a dataset of sample transcriptions. It is de-identified. Each transcript has a subspeciality of medicine.
-Some transcripts have labels that do not mention a subspeciality of medicine, but rather a type of note. 
-Dont need to classify notes as overlaps will occur (Ex: Consult - History and Psy., Surgey). 
-    Must determine breadth of types that fall into this category or not.
-Goal: Create best classifier.
-
-Requirements: 
-1. Classify medical transcriptions by speciality of medicine.
-2. Evaluate model on each subspecialty of medicine
-3. Code is modular and bug free
-4. Use these evaluation metrics - precision, recall, F1 score, support, macro avg, weighted avg, accuracy and more.
-5. Comment and explain code.
-"""
-
-"""
-This code is just for exploratory purposes, dont need to run!
-In this repository, I plan to explore these methods to classify clinical text:
+This code is just for exploratory purposes, you don't need to run it!
+In this repository, I plan to explore the following methods to classify clinical text:
 
 1. ML Text Classification Models: (done)
 a. Logistic Regression: A simple and interpretable model that can serve as a baseline for the classification task.
 b. Multinomial Naive Bayes: Effective for text classification tasks, especially when dealing with text data.
 c. Random Forest and XGBoost: Ensemble methods that can handle text data well. They are particularly useful when you have a large feature space after text vectorization. 
 
-2. LSTM:v(if time permits)
+2. LSTM:
 a. LSTM (Long Short-Term Memory): LSTM networks are suitable for sequences, such as text. They can capture dependencies and context within the text effectively.
 
-3. Transformer Models: (if time permits)
+3. Transformer Models:
 a. BERT (Bidirectional Encoder Representations from Transformers): Pre-trained transformer models like BERT have achieved state-of-the-art results in various NLP tasks, including text classification.
 
 Future work:
